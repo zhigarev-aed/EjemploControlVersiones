@@ -1,0 +1,15 @@
+title: "Areas"
+author: "Ilia Zhigarev"
+date: "2024-10-14"
+output: html_document
+
+```{r setup, include=FALSE}
+knit::opts_chunk$set(echo = TRUE)
+```
+
+#Area circulo
+
+```{r}
+r<-0.5
+Area <- pi*r^2
+```
